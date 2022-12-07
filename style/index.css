@@ -1,0 +1,96 @@
+body {
+	background-color: #F1F3F6;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+/* Titulos */
+
+h1, h2 {
+	text-align: center;
+}
+
+/* span */
+
+.eniac1 {
+	color: #FFE600;
+}
+
+.cor-span2 {
+	color: #2A71FF;
+}
+
+.link-format1 a {
+	color: #196BFE;
+}
+
+.link-format1 a {
+	text-decoration: none;
+}
+
+/* Edições nas imagens: */
+
+.imagem-eniac img, .imagem-arpanet img {
+	width: 500px;
+	height: 400px;
+	border-radius: 20px;
+	border: 2px inset #FFFFFF;
+}
+
+.imagem-logo-html img {
+	width: 100px;
+	height: 120px;
+}
+
+/* Class e ID das imagens: */
+
+.imagem-eniac, .imagem-arpanet {
+	text-align: center;
+}
+
+/* p: textos */
+
+.txt-form1 {
+	text-align: center;
+}
+
+/* Seções */
+
+section {
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.section-eniac, .section-internet, .html {
+	background-color: #242424;
+	margin-bottom: 50px;
+}
+
+.html {
+	text-align: end;
+}
+
+/* Menu */
+
+nav li {
+	list-style: none;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #242424;
+	transition: 0.8s;
+}
+
+nav li a:hover {
+	color: #196BFE;
+}
+
+.menu-principal {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	gap: 20px;
+	padding-bottom: 10px;
+}
